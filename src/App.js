@@ -20,21 +20,21 @@ class App extends React.Component {
     })
   }
 
-
   render(){
     return (
       <div className="App">
+        <div className="info">
+          <p>Some pictures are of normal strawberries. Some are of wedge strawberries.</p>
+          <p>Which strawberries are the same?</p>
+        </div>
         <div className="images">
           <img src={"./imgs/" + this.state.first +".jpg"} className="identify" alt-text="picture 1"/>
           <img src={"./imgs/" + this.state.second +".jpg"} className="identify" alt-text="test"/>
           <img src={"./imgs/" + this.state.third +".jpg"} className="identify" alt-text="test"/>
         </div>
-        <div className="info">
-          <p>Which pictures are the same?</p>
-        </div>
         <div className="options">
         <form action="https://airtable-api-626.herokuapp.com/api" method="POST">
-            <input type="text" id="name" name="name" placeholder="Name"/>
+            <input type="text" id="name" name="name" placeholder="Name" required/>
             <input type="hidden" id="pic1" name="pic1" value={parseInt(this.state.first)}/>
             <input type="hidden" id="pic2" name="pic2" value={parseInt(this.state.second)}/>
             <input type="hidden" id="pic3" name="pic3" value={parseInt(this.state.third)}/>
@@ -45,7 +45,7 @@ class App extends React.Component {
               <option value="3">2,3</option>
               <option value="4">1,2,3</option>
             </select>
-            <button class="submit" type="submit">Submit</button>
+            <button class="submit" type="submit" disabled>Submit</button>
           </form>
         </div>
       </div>
