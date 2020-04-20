@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/caltech-research/static/css/main.10b34665.chunk.css",
-    "main.js": "/caltech-research/static/js/main.6aa97c39.chunk.js",
-    "main.js.map": "/caltech-research/static/js/main.6aa97c39.chunk.js.map",
+    "main.css": "/caltech-research/static/css/main.3743b8fa.chunk.css",
+    "main.js": "/caltech-research/static/js/main.440c28e6.chunk.js",
+    "main.js.map": "/caltech-research/static/js/main.440c28e6.chunk.js.map",
     "runtime-main.js": "/caltech-research/static/js/runtime-main.9cb8901c.js",
     "runtime-main.js.map": "/caltech-research/static/js/runtime-main.9cb8901c.js.map",
     "static/js/2.698901fb.chunk.js": "/caltech-research/static/js/2.698901fb.chunk.js",
     "static/js/2.698901fb.chunk.js.map": "/caltech-research/static/js/2.698901fb.chunk.js.map",
     "index.html": "/caltech-research/index.html",
-    "precache-manifest.5d1df8b89831921476fe35b0de038a8f.js": "/caltech-research/precache-manifest.5d1df8b89831921476fe35b0de038a8f.js",
+    "precache-manifest.1d93f802ecd92250efa24a56f3ddd841.js": "/caltech-research/precache-manifest.1d93f802ecd92250efa24a56f3ddd841.js",
     "service-worker.js": "/caltech-research/service-worker.js",
-    "static/css/main.10b34665.chunk.css.map": "/caltech-research/static/css/main.10b34665.chunk.css.map",
+    "static/css/main.3743b8fa.chunk.css.map": "/caltech-research/static/css/main.3743b8fa.chunk.css.map",
     "static/js/2.698901fb.chunk.js.LICENSE.txt": "/caltech-research/static/js/2.698901fb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9cb8901c.js",
     "static/js/2.698901fb.chunk.js",
-    "static/css/main.10b34665.chunk.css",
-    "static/js/main.6aa97c39.chunk.js"
+    "static/css/main.3743b8fa.chunk.css",
+    "static/js/main.440c28e6.chunk.js"
   ]
 }
