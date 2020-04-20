@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { render } from '@testing-library/react';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,9 +27,9 @@ class App extends React.Component {
           <p>Which strawberries are the same?</p>
         </div>
         <div className="images">
-          <img src={"./imgs/" + this.state.first +".jpg"} className="identify" alt-text="picture 1"/>
-          <img src={"./imgs/" + this.state.second +".jpg"} className="identify" alt-text="test"/>
-          <img src={"./imgs/" + this.state.third +".jpg"} className="identify" alt-text="test"/>
+          <img src={"./imgs/" + this.state.first +".jpg"} className="identify" alt="strawberry 1"/>
+          <img src={"./imgs/" + this.state.second +".jpg"} className="identify" alt="strawberry 2"/>
+          <img src={"./imgs/" + this.state.third +".jpg"} className="identify" alt="strawberry 3"/>
         </div>
         <div className="options">
         <form action="https://airtable-api-626.herokuapp.com/api" method="POST">
@@ -45,7 +44,7 @@ class App extends React.Component {
               <option value="3">2,3</option>
               <option value="4">1,2,3</option>
             </select>
-            <button class="submit" type="submit" disabled>Submit</button>
+            <button class="submit" type="submit">Submit</button>
           </form>
         </div>
       </div>
