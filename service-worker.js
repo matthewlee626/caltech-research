@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/caltech-research/precache-manifest.93d1b4fdfefc940efa6b0066ed24571b.js"
+  "/caltech-research/precache-manifest.872ac43d67b8a0d1e50612310f65f9ba.js"
 );
 
 self.addEventListener('message', (event) => {
