@@ -6,3 +6,4 @@ Generates a random triangle of pictures from the nC3 possible selections from 30
 
 ### TODO:
   * Make a login/password system.
+  * Toggle
