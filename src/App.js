@@ -26,15 +26,9 @@ class App extends React.Component {
     }
 
     this.setState({
-<<<<<<< HEAD
-      first: ("00" + numbers[0]).slice(-3),
-      second: ("00" + numbers[1]).slice(-3),
-      third: ("00" + numbers[2]).slice(-3)
-=======
       first: ("00" + parseInt(Math.random()*20)).slice(-3),
       second: ("00" + parseInt(Math.random()*20)).slice(-3),
       third: ("00" + parseInt(Math.random()*20)).slice(-3)
->>>>>>> 605c0eb2553e7ad6d5e4c83886c76d1fe1c91de1
     })
   }
 
