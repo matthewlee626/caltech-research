@@ -36,7 +36,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="info">
-          <p>Some pictures are of persion cats. Some are of regdoll cats.</p>
+          <p>Some pictures are of Persian cats. Some are of Ragdoll cats.</p>
           <p>Which pictures are the same?</p>
         </div>
         <div className="images">
