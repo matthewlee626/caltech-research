@@ -26,9 +26,9 @@ class App extends React.Component {
     }
 
     this.setState({
-      first: ("00" + parseInt(Math.random()*20)).slice(-3),
-      second: ("00" + parseInt(Math.random()*20)).slice(-3),
-      third: ("00" + parseInt(Math.random()*20)).slice(-3)
+      first: ("00" + parseInt(Math.random()*56)).slice(-3),
+      second: ("00" + parseInt(Math.random()*56)).slice(-3),
+      third: ("00" + parseInt(Math.random()*56)).slice(-3)
     })
   }
 
@@ -36,13 +36,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="info">
-          <p>Some pictures are of roses. Some are of camellias.</p>
+          <p>Some pictures are of Persian cats. Some are of Ragdoll cats.</p>
           <p>Which pictures are the same?</p>
         </div>
         <div className="images">
-          <img src={"./imgs/" + this.state.first +".jpg"} className="identify" alt="flower 1"/>
-          <img src={"./imgs/" + this.state.second +".jpg"} className="identify" alt="flower 2"/>
-          <img src={"./imgs/" + this.state.third +".jpg"} className="identify" alt="flower 3"/>
+          <img src={"./imgs/" + this.state.first +".jpg"} className="identify" alt="cat 1"/>
+          <img src={"./imgs/" + this.state.second +".jpg"} className="identify" alt="cat 2"/>
+          <img src={"./imgs/" + this.state.third +".jpg"} className="identify" alt="cat 3"/>
         </div>
         <div className="options">
           <form action="https://airtable-api-626.herokuapp.com/api" method="POST">
